@@ -24,6 +24,7 @@ export default [
           declarationDir: "dist/esm/types",
         },
       }),
+      postcss(),
     ],
   },
   {
@@ -44,6 +45,7 @@ export default [
           declarationDir: "dist/cjs/types",
         },
       }),
+      postcss(),
     ],
   },
   {
@@ -55,5 +57,6 @@ export default [
       },
     ],
     plugins: [dts()],
+    external: [/\.css$/],
   },
 ];
