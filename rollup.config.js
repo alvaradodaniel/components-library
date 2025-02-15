@@ -51,7 +51,7 @@ export default [
     input: "dist/esm/types/index.d.ts",
     output: [
       {
-        file: "dist/esm/types/index.d.ts",
+        file: "dist/index.d.ts",
         format: "esm",
       },
     ],
