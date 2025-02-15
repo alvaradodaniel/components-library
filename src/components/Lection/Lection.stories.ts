@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Lection } from './Lection';
+
+import Lection from './Lection';
 
 const meta = {
   title: 'Example/Lection',

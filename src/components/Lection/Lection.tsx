@@ -2,19 +2,21 @@ import React from "react";
 
 import "./Lection.css";
 
-export interface ButtonProps {
+export interface LectionProps {
   title: string;
   description: string;
   imageSrc?: string;
+  onClick?: () => void;
 }
 
-export const Lection = ({
+const Lection = ({
   title,
   description,
   imageSrc = "https://cdn-icons-png.flaticon.com/512/1995/1995515.png",
-}: ButtonProps) => {
+  onClick,
+}: LectionProps) => {
   return (
-    <div className="lection-container">
+    <div className="lection-container" onClick={onClick}>
       <div>
         <img src={imageSrc} alt="Lection image" className="lection-image"></img>
       </div>
@@ -25,3 +27,5 @@ export const Lection = ({
     </div>
   );
 };
+
+export default Lection;
