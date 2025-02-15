@@ -1,3 +1,4 @@
-export { default as Button } from "./Button/index";
-export { default as Lection } from "./Lection/index";
+export * from "./OptionNav";
+export * from "./Course";
+export * from "./Lection";
 export * from "./Filter";
