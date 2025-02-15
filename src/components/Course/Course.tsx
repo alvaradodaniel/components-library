@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Course.css"
+
 export interface CourseProps{
     imageSrc: string;
     title: string;

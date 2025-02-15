@@ -33,29 +33,3 @@ export const Primary: Story = {
     description: "Updated today",
     },
 };
-
-export const Secondary: Story = {
-    args: {
-        imageSrc: "https://images.seeklogo.com/logo-png/44/1/next-js-logo-png_seeklogo-449824.png",
-    title: "Next.js: Beginner",
-    description: "Updated today",
-    },
-};
-
-export const Large: Story = {
-    args: {
-        /* size: 'large', */
-        imageSrc: "https://images.seeklogo.com/logo-png/44/1/next-js-logo-png_seeklogo-449824.png",
-    title: "Next.js: Beginner",
-    description: "Updated today",
-    },
-};
-
-export const Small: Story = {
-    args: {
-        /* size: 'small', */
-        imageSrc: "https://images.seeklogo.com/logo-png/44/1/next-js-logo-png_seeklogo-449824.png",
-    title: "Next.js: Beginner",
-    description: "Updated today",
-    },
-};
