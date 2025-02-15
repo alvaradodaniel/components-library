@@ -1,2 +1,2 @@
-export { default } from "./OptionNav";
+export { default as OptionNav } from "./OptionNav";
 

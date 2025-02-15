@@ -1,1 +1,1 @@
-export { default } from "./Course"
+export { default as Course } from "./Course"
