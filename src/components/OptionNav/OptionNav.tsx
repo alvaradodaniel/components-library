@@ -13,7 +13,7 @@ const OptionNav = ({
   return (
     <div className="option">
       <div className="imagenOption">
-        <img src={imageSrc} alt="Estrellita" />
+        <img src={imageSrc} alt="Estrellita"></img>
       </div>
       <p>{text}</p>
     </div>

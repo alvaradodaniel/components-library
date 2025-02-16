@@ -14,7 +14,7 @@ const Course = ({
 }: CourseProps) => {
   return (
     <div className="course-container">
-      <img alt="Course image" src={imageSrc} className="course-image" />
+      <img alt="Course image" src={imageSrc} className="course-image"></img>
       <h1 className="course-title">{title}</h1>
       <p className="course-description">{description}</p>
     </div>
