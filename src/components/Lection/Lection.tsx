@@ -8,7 +8,7 @@ export interface LectionProps {
   onClick?: () => void;
 }
 
-const Lection = ({
+export const Lection = ({
   title,
   description,
   imageSrc = "https://cdn-icons-png.flaticon.com/512/1995/1995515.png",
@@ -25,9 +25,3 @@ const Lection = ({
     </div>
   );
 };
-
-const LectionWrapper = (props: LectionProps) => {
-  return <Lection {...props} />;
-};
-
-export default LectionWrapper;

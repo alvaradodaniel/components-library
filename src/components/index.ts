@@ -1,1 +1,1 @@
-export { default as Lection } from "./Lection/index";
+export { Lection } from "./Lection";
