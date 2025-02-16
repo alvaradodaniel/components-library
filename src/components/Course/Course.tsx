@@ -2,15 +2,15 @@ import React from "react";
 import "./Course.css";
 
 export interface CourseProps {
-  imageSrc?: string;
   title: string;
   description: string;
+  imageSrc?: string;
 }
 
 const Course = ({
-  imageSrc = "https://images.seeklogo.com/logo-png/44/1/next-js-logo-png_seeklogo-449824.png",
   title,
   description,
+  imageSrc = "https://images.seeklogo.com/logo-png/44/1/next-js-logo-png_seeklogo-449824.png",
 }: CourseProps) => {
   return (
     <div className="course-container">
