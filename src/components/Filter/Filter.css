@@ -1,14 +1,14 @@
 .filter-button {
-    padding: 8px 16px;
-    border: 1px solid #ccc;
-    background-color: white;
-    color: black;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .filter-button-active {
-    background-color: #f8f1ff;
-    border: none;
+  background-color: #b280e4;
+  border: none;
 }

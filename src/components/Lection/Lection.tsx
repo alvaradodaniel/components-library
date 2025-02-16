@@ -8,7 +8,7 @@ export interface LectionProps {
   onClick?: () => void;
 }
 
-export const Lection = ({
+const Lection = ({
   title,
   description,
   imageSrc = "https://cdn-icons-png.flaticon.com/512/1995/1995515.png",
@@ -25,3 +25,5 @@ export const Lection = ({
     </div>
   );
 };
+
+export default Lection;

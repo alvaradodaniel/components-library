@@ -1,1 +1,5 @@
-export { Lection } from "./Lection";
+export { default as Lection } from './Lection'
+export { default as Course } from './Course'
+export { default as Filter } from './Filter'
+export { default as Toggle } from './Toggle'
+export { default as OptionNav } from './OptionNav'

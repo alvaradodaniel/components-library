@@ -2,7 +2,7 @@ import React from "react";
 import "./Course.css";
 
 export interface CourseProps {
-  imageSrc: string;
+  imageSrc?: string;
   title: string;
   description: string;
 }
