@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./Lection.css";
 
 export interface LectionProps {
@@ -13,10 +12,9 @@ const Lection = ({
   title,
   description,
   imageSrc = "https://cdn-icons-png.flaticon.com/512/1995/1995515.png",
-  onClick,
 }: LectionProps) => {
   return (
-    <div className="lection-container" onClick={onClick}>
+    <div className="lection-container">
       <div>
         <img src={imageSrc} alt="Lection image" className="lection-image"></img>
       </div>
@@ -28,4 +26,8 @@ const Lection = ({
   );
 };
 
-export default Lection;
+const LectionWrapper = (props: LectionProps) => {
+  return <Lection {...props} />;
+};
+
+export default LectionWrapper;

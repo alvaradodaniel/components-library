@@ -3,11 +3,15 @@ import "./Toggle.css";
 
 export interface ToggleProps {
   options: [string, string];
-  defaultSelected?: number; 
+  defaultSelected?: number;
   onChange?: (selectedIndex: number) => void;
 }
 
-const Toggle: React.FC<ToggleProps> = ({ options, defaultSelected = 0, onChange }) => {
+const Toggle: React.FC<ToggleProps> = ({
+  options,
+  defaultSelected = 0,
+  onChange,
+}) => {
   const [selected, setSelected] = useState(defaultSelected);
 
   const handleClick = (index: number) => {
