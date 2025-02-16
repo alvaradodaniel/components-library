@@ -1,0 +1,23 @@
+.toggle-container {
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: fit-content;
+    background-color: #f1f1f1;
+  }
+  
+  .toggle-option {
+    padding: 8px 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+    flex: 1;
+    color: #333;
+  }
+  
+  .toggle-option.active {
+    background-color: #d8cef7;
+    font-weight: bold;
+  }
+  
